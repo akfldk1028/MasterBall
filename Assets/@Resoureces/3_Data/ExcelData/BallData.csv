@@ -1,0 +1,7 @@
+﻿Name,DataId,PrefabLabel,Tag,Layer,DescriptionText,Mass,Drag,AngularDrag,UseGravity,IsKinematic,PhysicsMaterial,BallType,BaseRadius,BaseSpeed,BaseDamage,DefaultSkillId,EnvSkillId,VisualId,PhysicsId,MinigameId,StatsId,IconImage,ClientPrefab,LevelConfigsId
+기본 공,201000,PRELOAD,ball,ball,기본적인 물리 특성을 가진 균형 잡힌 공,1,0.5,0.05,TRUE,FALSE,null,neutral,1,5,6,10001,20001,30001,40001,50001,90001,green_slime,green_slime,1000&2000
+불공,201001,PRELOAD,ball,ball,빠르고 화상 데미지를 주는 공,0.7,0.4,0.04,TRUE,FALSE,null,fire,1,6.5,8,10001,20001,30001,40001,50001,90001,003.sprite,Monster,1000&2000
+물공,201002,PRELOAD,ball,ball,부드럽게 움직이며 광범위한 효과를 주는 공,1,0.3,0.05,TRUE,FALSE,null,water,1,5,6,10001,20001,30001,40001,50001,90001,003.sprite,Monster,1000&2000
+전기공,201003,PRELOAD,ball,ball,매우 빠르고 연쇄 반응을 일으키는 공,0.6,0.7,0.03,TRUE,FALSE,null,electric,1,8,5,10001,20001,30001,40001,50001,90001,003.sprite,Monster,1000&2000
+땅공,201004,PRELOAD,ball,ball,무겁고 강력한 타격을 주는 공,1.5,0.6,0.07,TRUE,FALSE,null,earth,1,4,12,10003,20001,30001,40001,50001,90001,003.sprite,Monster,1000&2000
+얼음공,201005,PRELOAD,ball,ball,적을 느려지게 만들고 날카로운 반사 효과를 가진 공,0.9,0.4,0.04,TRUE,FALSE,null,ice,1,5.5,7,10001,20001,30001,40001,50001,90001,003.sprite,Monster,1000&2000

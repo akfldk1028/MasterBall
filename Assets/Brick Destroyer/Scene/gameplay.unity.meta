@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 4d75d1c1f71b75a4f859d58b4462dbec
+timeCreated: 1568741076
+licenseType: Store
+DefaultImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 314373
+  packageName: Brick Destroyer - digit smash
+  packageVersion: 1.0
+  assetPath: Assets/Brick Destroyer/Scene/gameplay.unity
+  uploadId: 742026

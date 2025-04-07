@@ -1,0 +1,19 @@
+fileFormatVersion: 2
+guid: 99b5dd28e56ae844a8dea9d6d15ca85b
+timeCreated: 1569252754
+licenseType: Store
+MonoImporter:
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 314373
+  packageName: Brick Destroyer - digit smash
+  packageVersion: 1.0
+  assetPath: Assets/Brick Destroyer/Scripts/MoveDownObjects.cs
+  uploadId: 742026

@@ -1,0 +1,19 @@
+fileFormatVersion: 2
+guid: ac7d10d1f75f9a144a234378d207de36
+timeCreated: 1568904508
+licenseType: Store
+MonoImporter:
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 314373
+  packageName: Brick Destroyer - digit smash
+  packageVersion: 1.0
+  assetPath: Assets/Brick Destroyer/Scripts/CollectStar.cs
+  uploadId: 742026

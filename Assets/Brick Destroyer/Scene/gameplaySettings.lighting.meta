@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: bbe0121fd336c464ea5ef86265cc7f24
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 4890085278179872738
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 314373
+  packageName: Brick Destroyer - digit smash
+  packageVersion: 1.0
+  assetPath: Assets/Brick Destroyer/Scene/gameplaySettings.lighting
+  uploadId: 742026

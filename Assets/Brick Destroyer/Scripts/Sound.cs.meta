@@ -1,0 +1,19 @@
+fileFormatVersion: 2
+guid: 616207cbd8bac624aa93297d63f633b9
+timeCreated: 1569070332
+licenseType: Store
+MonoImporter:
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 314373
+  packageName: Brick Destroyer - digit smash
+  packageVersion: 1.0
+  assetPath: Assets/Brick Destroyer/Scripts/Sound.cs
+  uploadId: 742026
