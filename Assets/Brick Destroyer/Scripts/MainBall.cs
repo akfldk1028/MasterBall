@@ -44,7 +44,7 @@ namespace BrickDestroyer
 
 		[Header("Auto Launch Settings")]
 		[SerializeField] private float plankMoveThreshold = 0.1f; // 플랭크 이동 감지 임계값
-		[SerializeField] private float launchForce = 1250f; // 발사 힘 (기존 값 사용)
+		[SerializeField] private float launchForce = 600f; // 발사 힘 (기존 값 사용)
 		[SerializeField] private Vector2 launchDirection = Vector2.up; // 자동 발사 방향 (위쪽)
 
 		private float initialPlankX; // 플랭크 초기 X 좌표 저장용
@@ -98,11 +98,11 @@ namespace BrickDestroyer
 			// }
 			GetComponent<ObjectPlacement>().PlaceNewObjectsOnTheScene();
 			// lines = transform.Find("lines").gameObject;
-			GameObject.Find("numberOfStarsText").GetComponent<Text>().text = PlayerPrefs.GetInt("numberOfStars").ToString();
+			// GameObject.Find("numberOfStarsText").GetComponent<Text>().text = PlayerPrefs.GetInt("numberOfStars").ToString();
 			// lines.SetActive(false);
-			speedUpButton = GameObject.Find("speedUpButton");
-			speedUpButton.SetActive(false);
-			BallColorAndSprite();
+			// speedUpButton = GameObject.Find("spee/dUpButton");
+			// speedUpButton.SetActive(false);
+			// BallColorAndSprite();
 
 			// --- 발사 준비 상태 설정 및 위치 초기화 (플랭크 기준) ---
 			rb.linearVelocity = Vector2.zero;
@@ -128,7 +128,7 @@ namespace BrickDestroyer
 		void OnEnable()
 		{
 			ballNumberText.SetActive(true);
-			BallColorAndSprite();
+			// BallColorAndSprite();
 		}
 
 		void OnDisable()
@@ -182,15 +182,15 @@ namespace BrickDestroyer
             }
 			// --- 자동 발사 로직 끝 ---
 
-			speedUpTimer += Time.deltaTime;
-			if (speedUpTimer >= 5 + (Vars.numberOfBalls / 10))
-			{
-				speedUpTimer = 0;
-				if (Time.timeScale == 1 && !canShoot)
-				{
-					speedUpButton.SetActive(true);
-				}
-			}
+			// speedUpTimer += Time.deltaTime;
+			// if (speedUpTimer >= 5 + (Vars.numberOfBalls / 10))
+			// {
+			// 	speedUpTimer = 0;
+			// 	if (Time.timeScale == 1 && !canShoot)
+			// 	{
+			// 		speedUpButton.SetActive(true);
+			// 	}
+			// }
 
 			if (multipleBalls == true) // 이 로직은 첫 발사 이후에만 작동해야 함
 			{
@@ -553,7 +553,7 @@ namespace BrickDestroyer
 
 			 // 발사 후 상태 변경
 			 canShoot = false;
-			 numberOfBalls.color = new Color(1, 1, 1, 0); // 공 개수 텍스트 숨기기
+			//  numberOfBalls.color = new Color(1, 1, 1, 0); // 공 개수 텍스트 숨기기
 
 			 // 여러 개 공 발사 준비 (첫 발사 이후 시작되도록)
 			 if (Vars.numberOfBalls > 1)
@@ -568,8 +568,8 @@ namespace BrickDestroyer
 			 }
 
 			 // 발사 후 속도 체크 타이머 시작
-			 speedUpTimer = 0;
-			 speedUpButton.SetActive(false); // 혹시 활성화 되어있었다면 숨기기
+			//  speedUpTimer = 0;
+			//  speedUpButton.SetActive(false); // 혹시 활성화 되어있었다면 숨기기
 		}
 		// ---------------
 
